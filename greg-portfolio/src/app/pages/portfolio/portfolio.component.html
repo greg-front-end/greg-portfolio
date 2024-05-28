@@ -1,0 +1,28 @@
+<div class="portfolio">
+    <div class="wrapper">
+        <div class="page-section-name">
+            <h1>{{ 'portfolio.pageSectionName' | translate }}
+                <span>{{ 'portfolio.pageSectionName' | translate }}</span>
+            </h1>
+        </div>
+
+        <div class="portfolio-content-wrapper">
+            <div class="portfolio-filter">
+                @for(btn of filterBtns; track $index) {
+                    <button class="portfolio-filter-btn button"
+                            [class.active]="selectedFilter() === btn.value"
+                            (click)="onFilterPortfolio(btn.value)"
+                    >
+                        {{ btn.title }}
+                    </button>
+                }
+            </div>
+
+            <div class="portfolio-works-wrapper">
+                @for (portfolio of filteredPortfolioData(); track $index) {
+                    <app-portfolio-card [portfolio]="portfolio" />
+                }
+            </div>
+        </div>
+    </div>
+</div>
