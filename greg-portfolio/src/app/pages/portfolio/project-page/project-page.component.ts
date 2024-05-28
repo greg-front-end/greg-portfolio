@@ -27,7 +27,7 @@ export class ProjectPageComponent implements OnInit {
 
     ngOnInit(): void {
         const id = this.route.snapshot.paramMap.get('id')!;
-
+        console.log(id);
         this.card.set(this.translateService.translations[this.translateService.currentLang].portfolio[id])
         this.projectLinkLabels = {
             ...this.translateService.translations[this.translateService.currentLang].portfolio.projectLinksLabels,

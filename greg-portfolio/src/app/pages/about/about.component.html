@@ -12,7 +12,7 @@
                     <p>
                         {{ 'about.aboutMe' | translate }}
                     </p>
-                    <a class="about-button button" href="../../../assets/pages/about/cv/resume-en.pdf" download="Greg_Martinos_cv"
+                    <a class="about-button button" [href]="'../../../assets/pages/about/cv/resume-'  + currentLang + '.pdf'" download="Greg_Martinos_cv"
                        title="Download cv">{{ 'about.downloadSv' | translate }}
                         <svg-icon class="about-download-icon" src="./assets/icons/download.svg"></svg-icon>
                     </a>
