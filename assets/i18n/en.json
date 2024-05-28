@@ -1,0 +1,170 @@
+{
+  "home": {
+    "pageSectionName": "Home",
+    "title": "I'm Greg Martirosian",
+    "titleSpan": "Frontend Developer",
+    "firstDescr": "Hi, thank you for visiting my portfolio! As a frontend developer with a passion for Angular, I focus on crafting intuitive and engaging user experiences. ",
+    "secondDescr": "Here, you can discover my latest projects, dive into my skill set, and see the innovative solutions I've developed. I'm excited to share my work with you!"
+  },
+  "about": {
+    "pageSectionName": "About me",
+    "aboutMe": "Passionate and motivated web developer, working on projects for various clients, combining the art of design with the art of programming Curious about new digital technologies and interested in everything tech-related.",
+    "downloadSv": "Download CV",
+    "experienceTitle": "EXPERIENCES",
+    "workData": {
+      "gcore": {
+        "experiencePosition": "Angular Front-End Developer, 2022 - Present",
+        "experienceCompany": "Gcore",
+        "experienceDescr": "Worked on the company's website. With the help of the angular, created the user interface/UX and the logical part of the site. I worked on a calculator where complex logic and requests to the server for data for the calculator were implemented. I used node.js and the nest framework for the backend."
+      },
+      "freelance": {
+        "experiencePosition": "Front-End Developer, 2020 - 2022",
+        "experienceCompany": "Freelance",
+        "experienceDescr": "Implementing websites and mobile applications with a responsive, mobile-first approach from concept through deployment, while constantly maintaining, optimizing, troubleshooting, and improving websites for various clients."
+      },
+      "utest": {
+        "experiencePosition": "Quality Assurance Tester, 2018 - 2020",
+        "experienceCompany": "uTest, Testbirds, testIO",
+        "experienceDescr": "Finding and reporting bugs and glitches, through manual testing. Ensuring that products, applications and systems work correctly and that user expectations are met during the testing process."
+      }
+    },
+    "educationTitle": "EDUCATION",
+    "educationData": {
+      "rssSchool": {
+        "educationPosition": "Front-End Development / JavaScript, 2021 - 2022",
+        "educationDescr": "The Rolling Scopes School (Online)"
+      },
+      "freeCode": {
+        "educationPosition": "Responsive Web Design, JavaScript Algorithms & Data Structures, 2019",
+        "educationDescr": "FreeCode Camp (Online)"
+      },
+      "fitness": {
+        "educationPosition": "Certified Personal Trainer, 2014",
+        "educationDescr": "Bali Fitness Club"
+      },
+      "college": {
+        "educationPosition": "College of Business, Law and Social Sciences, 2006",
+        "educationDescr": "Business Institute"
+      }
+    },
+    "languageTitle": "LANGUAGES",
+    "languageData": {
+      "en": "English",
+      "es": "Spanish",
+      "arm": "Armenian",
+      "ru": "Russian"
+    }
+  },
+  "skills": {
+    "pageSectionName": "Skills",
+    "hardSkillsTitle": "HARD SKILLS",
+    "softSkillsTitle": "SOFT SKILLS",
+    "softSkillsData": {
+      "communicat": "Communication",
+      "creativity": "Creativity",
+      "teamWork": "Team work",
+      "problemSolving": "Problem solving",
+      "engagement": "Engagement",
+      "sociable": "Sociable"
+    }
+  },
+
+  "portfolio": {
+    "pageSectionName": "Portfolio",
+    "projectLinksLabels": {
+      "goBack": "Go back",
+      "seeProject": "See project"
+    },
+    "gcore": {
+      "img": "./assets/portfolio/gcore.png",
+      "url": "https://gcore.com/pricing/cloud",
+      "workTitle": "Cloud Calculator",
+      "overview": "The Cloud Pricing Calculator is a web application that simplifies the process of estimating cloud service costs. It uses Angular, Scully, Strapi, Node.js/NestJS, PostgreSQL, TypeORM, TypeScript, and SCSS for a robust and user-friendly experience.",
+      "technologyStackTitle": "Technology Stack",
+      "technologyStack": [
+        {
+          "label": "Angular",
+          "description": "For building a dynamic, responsive front-end."
+        },
+        {
+          "label": "Scully",
+          "description": "o generate static pages for better SEO and performance."
+        },
+        {
+          "label": "Strapi",
+          "description": "Manages non-pricing content like labels and localization."
+        },
+        {
+          "label": "Node.js/NestJS",
+          "description": "Powers the back-end for secure, scalable services."
+        },
+        {
+          "label": "PostgreSQL",
+          "description": "Reliable database for storing pricing data."
+        },
+        {
+          "label": "TypeORM",
+          "description": "Handles database operations."
+        },
+        {
+          "label": "TypeScript",
+          "description": "Ensures type safety and maintainable code."
+        },
+        {
+          "label": "SCSS",
+          "description": "Provides modular and maintainable styling."
+        }
+      ],
+      "problemSolvedTitle": "Problem Solved",
+      "problemSolved": "The calculator addresses the complexity of estimating cloud costs, offering a clear and interactive tool to help users make informed decisions about their cloud service expenses.",
+      "featuresTitle": "Features",
+      "features": [
+        {
+          "label": "Interactive Calculator",
+          "description": "Users input parameters to get real-time cost estimates."
+        },
+        {
+          "label": "Dynamic Data Fetching",
+          "description": "Prices are stored in PostgreSQL, updated from JSON files via NestJS."
+        },
+        {
+          "label": "Content Management",
+          "description": "Strapi manages labels and localization content."
+        },
+        {
+          "label": "SEO Optimization",
+          "description": "Scully generates static pages for improved search visibility."
+        },
+        {
+          "label": "Responsive Design",
+          "description": "Angular and SCSS ensure a seamless experience on all devices."
+        }
+      ],
+      "implementationDetailsTitle": "Implementation Details",
+      "implementationDetails": [
+        {
+          "label": "Frontend",
+          "list": [
+            "Angular for a rich UI.",
+            "Scully for static page generation.",
+            "SCSS for clean styling."
+          ]
+        },
+        {
+          "label": "Backend",
+          "list": [
+            "NestJS for a modular, scalable back-end.",
+            "JSON files parsed and stored in PostgreSQL using TypeORM.",
+            "Strapi for non-pricing content management."
+          ]
+        },
+        {
+          "label": "Database",
+          "list": [
+            "PostgreSQL with TypeORM for robust data handling."
+          ]
+        }
+      ]
+    }
+  }
+}
