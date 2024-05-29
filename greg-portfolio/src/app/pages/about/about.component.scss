@@ -15,8 +15,9 @@
 
   &-image {
     max-width: 800px;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: sticky;
+    top: calc(100vh - 600px);
+    height: 70vh;
 
     img {
       max-width: 100%;
@@ -97,6 +98,11 @@
   @media (max-width: $desktop) {
     &-wrapper {
       flex-direction: column-reverse;
+    }
+
+    &-image {
+      position: static;
+      height: auto;
     }
   }
 }

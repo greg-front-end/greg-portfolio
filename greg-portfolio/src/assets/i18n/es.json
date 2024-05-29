@@ -626,6 +626,59 @@
           ]
         }
       ]
+    },
+    "fitness-machine-shop": {
+      "img": "./assets/portfolio/fitness-machine.png",
+      "url": "https://rainbow-kelpie-83173e.netlify.app/",
+      "workTitle": "Tienda de Máquinas de Ejercicio",
+      "overview": "La Página de Tienda de Máquinas de Ejercicio es una plataforma de comercio electrónico que ofrece una amplia gama de equipos de fitness. Proporciona a los usuarios opciones avanzadas de filtrado para encontrar las máquinas de ejercicio perfectas según sus necesidades. Desarrollada con React, TypeScript y Material UI, asegura una interfaz moderna, responsiva y fácil de usar.",
+      "technologyStackTitle": "Tecnología Utilizada",
+      "technologyStack": [
+        {
+          "label": "React",
+          "description": "Para construir una interfaz de usuario dinámica e interactiva."
+        },
+        {
+          "label": "TypeScript",
+          "description": "Asegurando la seguridad de tipos y un código mantenible."
+        },
+        {
+          "label": "Material UI",
+          "description": "Estilizando los componentes con un aspecto consistente y profesional."
+        }
+      ],
+      "problemSolvedTitle": "Problema Resuelto",
+      "problemSolved": "La Página de Tienda de Máquinas de Ejercicio aborda la necesidad de una plataforma integral y eficiente donde los usuarios puedan navegar, filtrar y comprar equipos de fitness. Simplifica la experiencia de compra al ofrecer información detallada del producto y opciones avanzadas de filtrado.",
+      "featuresTitle": "Características",
+      "features": [
+        {
+          "label": "Vitrina de Productos",
+          "description": "Una colección curada de máquinas de ejercicio con descripciones detalladas e imágenes de alta resolución."
+        },
+        {
+          "label": "Filtrado Avanzado",
+          "description": "Múltiples opciones de filtrado, incluyendo rango de precios con deslizador, ordenación por precio, nombre y otros criterios para ayudar a los usuarios a encontrar exactamente lo que necesitan."
+        },
+        {
+          "label": "Diseño Responsivo",
+          "description": "Permitiendo a los usuarios guardar sus productos favoritos para referencia futura."
+        },
+        {
+          "label": "Lista de Deseos",
+          "description": "Asegurando una experiencia de visualización óptima en varios dispositivos para una navegación y compra sin problemas."
+        }
+      ],
+      "implementationDetailsTitle": "Detalles de Implementación",
+      "implementationDetails": [
+        {
+          "label": "Frontend",
+          "list": [
+            "React para construir la interfaz de usuario interactiva.",
+            "TypeScript para seguridad de tipos y mantenibilidad.",
+            "Material UI para un estilo consistente y moderno."
+          ]
+        }
+      ]
     }
   }
 }

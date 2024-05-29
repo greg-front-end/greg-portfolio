@@ -44,6 +44,13 @@ export const portfolios: PortfolioInterface[] = [
         img: './assets/portfolio/lang-app.png',
     },
     {
+        title: 'Fitness machine shop',
+        stack: 'React | Material UI | Typescript',
+        value: 'react',
+        url: './fitness-machine-shop',
+        img: './assets/portfolio/fitness-machine.png',
+    },
+    {
         title: 'Tic Tac Toe game',
         stack: 'JavaScript | HTML | SCSS',
         value: 'js',
