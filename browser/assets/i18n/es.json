@@ -628,7 +628,7 @@
       ]
     },
     "fitness-machine-shop": {
-      "img": "../assets/portfolio/fitness-machine.png",
+      "img": "./assets/portfolio/fitness-machine.png",
       "url": "https://rainbow-kelpie-83173e.netlify.app/",
       "workTitle": "Tienda de Máquinas de Ejercicio",
       "overview": "La Página de Tienda de Máquinas de Ejercicio es una plataforma de comercio electrónico que ofrece una amplia gama de equipos de fitness. Proporciona a los usuarios opciones avanzadas de filtrado para encontrar las máquinas de ejercicio perfectas según sus necesidades. Desarrollada con React, TypeScript y Material UI, asegura una interfaz moderna, responsiva y fácil de usar.",
