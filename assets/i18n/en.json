@@ -626,6 +626,59 @@
           ]
         }
       ]
+    },
+    "fitness-machine-shop": {
+      "img": "../assets/portfolio/fitness-machine.png",
+      "url": "https://rainbow-kelpie-83173e.netlify.app/",
+      "workTitle": "Fitness Machines",
+      "overview": "The Fitness Machine Shop Page is an e-commerce platform that offers a wide range of fitness equipment. It provides users with advanced filtering options to find the perfect fitness machines tailored to their needs. Developed using React, TypeScript, and Material UI, it ensures a modern, responsive, and user-friendly interface.",
+      "technologyStackTitle": "Technology Stack",
+      "technologyStack": [
+        {
+          "label": "React",
+          "description": "For building a dynamic and interactive user interface."
+        },
+        {
+          "label": "TypeScript",
+          "description": "Ensuring type safety and maintainable code."
+        },
+        {
+          "label": "Material UI",
+          "description": "Styling the components with a consistent and professional look. "
+        }
+      ],
+      "problemSolvedTitle": "Problem Solved",
+      "problemSolved": "The Fitness Machine Shop Page addresses the need for a comprehensive and efficient platform where users can browse, filter, and purchase fitness equipment. It simplifies the shopping experience by offering detailed product information and advanced filtering options.",
+      "featuresTitle": "Features",
+      "features": [
+        {
+          "label": "Product Showcase",
+          "description": "A curated collection of fitness machines with detailed descriptions and high-resolution images."
+        },
+        {
+          "label": "Advanced Filtering",
+          "description": "Multiple filtering options including price range slider, sorting by price, name, and other criteria to help users find exactly what they need."
+        },
+        {
+          "label": "Responsive Design",
+          "description": "Ensuring optimal viewing experience across various devices for seamless browsing and shopping."
+        },
+        {
+          "label": "Wishlist",
+          "description": "Enabling users to save their favorite products for future reference."
+        }
+      ],
+      "implementationDetailsTitle": "Implementation Details",
+      "implementationDetails": [
+        {
+          "label": "Frontend",
+          "list": [
+            "React for building the interactive user interface.",
+            "TypeScript for type safety and maintainability.",
+            "Material UI for consistent and modern styling."
+          ]
+        }
+      ]
     }
   }
 }
