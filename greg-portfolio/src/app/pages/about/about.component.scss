@@ -13,12 +13,14 @@
     gap: 3rem;
   }
 
-  &-video {
+  &-image {
     max-width: 800px;
     margin-top: auto;
     margin-bottom: auto;
-    video {
+
+    img {
       max-width: 100%;
+      object-fit: contain;
     }
   }
 
@@ -93,8 +95,8 @@
   }
 
   @media (max-width: $desktop) {
-    &-video {
-      display: none;
+    &-wrapper {
+      flex-direction: column-reverse;
     }
   }
 }
