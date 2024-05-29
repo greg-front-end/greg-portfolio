@@ -628,7 +628,7 @@
       ]
     },
     "fitness-machine-shop": {
-      "img": "../assets/portfolio/fitness-machine.png",
+      "img": "./assets/portfolio/fitness-machine.png",
       "url": "https://rainbow-kelpie-83173e.netlify.app/",
       "workTitle": "Fitness Machines",
       "overview": "The Fitness Machine Shop Page is an e-commerce platform that offers a wide range of fitness equipment. It provides users with advanced filtering options to find the perfect fitness machines tailored to their needs. Developed using React, TypeScript, and Material UI, it ensures a modern, responsive, and user-friendly interface.",
