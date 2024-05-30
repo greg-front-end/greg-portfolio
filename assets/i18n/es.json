@@ -1,6 +1,6 @@
 {
   "home": {
-    "pageSectionName": "Principal",
+    "pageSectionName": "Hola",
     "title": "Soy Greg Martirosian",
     "titleSpan": "desarrollador frontend",
     "firstDescr": "¡Hola y bienvenido, gracias por visitar mi portfolio! Como desarrollador frontend con pasión por Angular, me enfoco en crear experiencias de usuario intuitivas y atractivas.",
@@ -78,7 +78,7 @@
     "gcore": {
       "img": "./assets/portfolio/gcore.png",
       "url": "https://gcore.com/pricing/cloud",
-      "workTitle": "Cloud Calculator",
+      "pageSectionName": "Cloud Calculator",
       "overview": "La Calculadora de Precios en la Nube es una aplicación web que simplifica el proceso de estimar los costos de servicios en la nube. Utiliza Angular, Scully, Strapi, Node.js/NestJS, PostgreSQL, TypeORM, TypeScript y SCSS para ofrecer una experiencia robusta y amigable.",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -169,7 +169,7 @@
     "rslang": {
       "img": "./assets/portfolio/lang-app.png",
       "url": "https://rslang-greg-front-end.netlify.app",
-      "workTitle": "Aprendizaje de Inglés",
+      "pageSectionName": "Aprendizaje de Inglés",
       "overview": "La Aplicación de Aprendizaje de Inglés es una plataforma web amigable diseñada para facilitar la adquisición del idioma a través de actividades y recursos atractivos. Construida con React, Redux Toolkit y TypeScript, ofrece una experiencia de aprendizaje inmersiva sin la necesidad de un servidor backend.",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -232,7 +232,7 @@
     "tic-tac-toe": {
       "img": "./assets/portfolio/tic-tac-toe.png",
       "url": "https://greg-front-end.github.io/tic-tac-toe",
-      "workTitle": "Tic-Tac-Toe",
+      "pageSectionName": "Tic-Tac-Toe",
       "overview": "El Juego de Tic-Tac-Toe es un clásico juego basado en la web diseñado para proporcionar entretenimiento y desafiar el pensamiento estratégico de los jugadores. Desarrollado utilizando JavaScript, HTML y SCSS.",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -281,7 +281,7 @@
     "shelter": {
       "img": "./assets/portfolio/poppy.png",
       "url": "https://greg-front-end.github.io/shelter/public",
-      "workTitle": "Acerca del Refugio",
+      "pageSectionName": "Acerca del Refugio",
       "overview": "La página \"Acerca del Refugio\" ofrece información sobre la misión de nuestro refugio y el estado actual del bienestar animal. Desarrollada únicamente con JavaScript, HTML y CSS, proporciona una presentación concisa e informativa sin depender de frameworks o infraestructura de backend.",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -330,7 +330,7 @@
     "photo": {
       "img": "./assets/portfolio/photographer.png",
       "url": "https://greg-front-end.github.io/photo-porftolio",
-      "workTitle": "Fotógrafo",
+      "pageSectionName": "Fotógrafo",
       "overview": "El Portafolio del Fotógrafo es una exhibición del talento del fotógrafo, proporcionando una plataforma para mostrar imágenes cautivadoras capturadas a través del lente. Desarrollado con JavaScript, HTML y CSS, ofrece una presentación concisa pero atractiva sin necesidad de frameworks o infraestructura de backend.",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -387,7 +387,7 @@
     "travel": {
       "img": "./assets/portfolio/travel.png",
       "url": "https://greg-front-end.github.io/Responsive-Travel-Website/",
-      "workTitle": "Agencia de Viajes",
+      "pageSectionName": "Agencia de Viajes",
       "overview": "El Sitio Web de la Agencia de Viajes sirve como plataforma para que los viajeros exploren destinos, planifiquen viajes y reserven alojamientos. Desarrollado utilizando JavaScript, HTML y CSS, ofrece una interfaz completa pero fácil de usar sin depender de frameworks o infraestructura de backend.",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -436,7 +436,7 @@
     "furniture": {
       "img": "./assets/portfolio/furniture.png",
       "url": "https://greg-front-end.github.io/web_site_Furniture_collection/app/",
-      "workTitle": "Colección de Muebles",
+      "pageSectionName": "Colección de Muebles",
       "overview": "El Sitio Web de Colección de Muebles muestra una colección curada de piezas de mobiliario, brindando a los usuarios una plataforma para explorar, descubrir y comprar muebles de calidad. ",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -485,7 +485,7 @@
     "image": {
       "img": "./assets/portfolio/image-gallery.png",
       "url": "https://greg-front-end.github.io/API-image-gallery/",
-      "workTitle": "API Imágenes",
+      "pageSectionName": "API Imágenes",
       "overview": "La Galería de Imágenes API es una plataforma para explorar y descubrir imágenes de alta calidad obtenidas de una API externa, inspirada en el popular sitio web de Unsplash",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -534,7 +534,7 @@
     "keyboard": {
       "img": "./assets/portfolio/virtual-keyboard.png",
       "url": "https://greg-front-end.github.io/virtual-keyboard-mac/",
-      "workTitle": "Teclado Virtual",
+      "pageSectionName": "Teclado Virtual",
       "overview": "La Página de Teclado Virtual es una aplicación web interactiva que proporciona a los usuarios un teclado en pantalla para la entrada de texto. Desarrollada utilizando JavaScript (con clases para un enfoque de programación orientada a objetos).",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -587,7 +587,7 @@
     "bundler": {
       "img": "./assets/portfolio/bundler.png",
       "url": "https://github.com/greg-front-end/html-css-bundler/tree/dev",
-      "workTitle": "Agrupador",
+      "pageSectionName": "Agrupador",
       "overview": "El Agrupador de HTML/CSS es una aplicación de Node.js diseñada para consolidar archivos HTML y CSS en un solo index.html y style.css, mientras clona todos los archivos de activos en la carpeta dist del proyecto. Desarrollado para mejorar las habilidades de Node.js, este agrupador optimiza el proceso de combinar y organizar archivos de proyectos web.",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
@@ -630,7 +630,7 @@
     "fitness-machine-shop": {
       "img": "./assets/portfolio/fitness-machine.png",
       "url": "https://rainbow-kelpie-83173e.netlify.app/",
-      "workTitle": "Tienda de Máquinas de Ejercicio",
+      "pageSectionName": "Tienda de Máquinas de Ejercicio",
       "overview": "La Página de Tienda de Máquinas de Ejercicio es una plataforma de comercio electrónico que ofrece una amplia gama de equipos de fitness. Proporciona a los usuarios opciones avanzadas de filtrado para encontrar las máquinas de ejercicio perfectas según sus necesidades. Desarrollada con React, TypeScript y Material UI, asegura una interfaz moderna, responsiva y fácil de usar.",
       "technologyStackTitle": "Tecnología Utilizada",
       "technologyStack": [
