@@ -52,6 +52,9 @@
       width: 3.5rem;
       height: 3.5rem;
       animation: upIn 1s;
+      animation-delay: 0.5s;
+      transform: translateY(100%);
+      animation-fill-mode: forwards;
     }
 
     @keyframes upIn {

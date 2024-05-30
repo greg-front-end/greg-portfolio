@@ -9,7 +9,7 @@ export interface CardImplementationI {
 }
 
 export interface CardI {
-    workTitle: string;
+    pageSectionName: string;
     img?: string;
     url?: string;
     overview?: string;

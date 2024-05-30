@@ -12,9 +12,11 @@
     border-radius: 4px;
     text-decoration: none;
 
-    &:hover {
-      .portfolio-img {
-        top: 0;
+    @media (hover: hover) {
+      &:hover {
+        .portfolio-img {
+          top: 0;
+        }
       }
     }
   }

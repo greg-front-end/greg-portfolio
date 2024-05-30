@@ -50,6 +50,7 @@
       justify-content: center;
       position: relative;
       padding: 1rem;
+      top: -3rem;
 
       svg {
         width: 2rem;
@@ -64,16 +65,9 @@
       width: 100%;
       position: absolute;
       top: -40%;
-      opacity: 0;
-      visibility: hidden;
+      opacity: 1;
       transition: $transition-2;
       overflow: hidden;
-
-      &.active {
-        top: -100%;
-        opacity: 1;
-        visibility: visible;
-      }
     }
 
     &-item {
@@ -153,14 +147,15 @@
 
       &-wrapper {
         flex-direction: row-reverse;
-        gap: 0.25rem;
+        gap: 0.5rem;
         height: 2rem;
         padding: 0;
+        top: 0;
       }
 
       &-items {
         flex-direction: row;
-        gap: 0.25rem;
+        gap: 1rem;
         position: static;
         transition: $transition-2;
       }

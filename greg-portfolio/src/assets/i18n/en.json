@@ -1,6 +1,6 @@
 {
   "home": {
-    "pageSectionName": "Home",
+    "pageSectionName": "Hello",
     "title": "I'm Greg Martirosian",
     "titleSpan": "Frontend Developer",
     "firstDescr": "Hi, thank you for visiting my portfolio! As a frontend developer with a passion for Angular, I focus on crafting intuitive and engaging user experiences. ",
@@ -78,7 +78,7 @@
     "gcore": {
       "img": "./assets/portfolio/gcore.png",
       "url": "https://gcore.com/pricing/cloud",
-      "workTitle": "Cloud Calculator",
+      "pageSectionName": "Cloud Calculator",
       "overview": "The Cloud Pricing Calculator is a web application that simplifies the process of estimating cloud service costs. It uses Angular, Scully, Strapi, Node.js/NestJS, PostgreSQL, TypeORM, TypeScript, and SCSS for a robust and user-friendly experience.",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -169,7 +169,7 @@
     "rslang": {
       "img": "./assets/portfolio/lang-app.png",
       "url": "https://rslang-greg-front-end.netlify.app",
-      "workTitle": "Language learning",
+      "pageSectionName": "Language learning",
       "overview": "The English Learning Application is a user-friendly web platform designed to facilitate language acquisition through engaging activities and resources. Built with React, Redux Toolkit, and TypeScript, it offers an immersive learning experience without the need for a backend server.",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -232,7 +232,7 @@
     "tic-tac-toe": {
       "img": "./assets/portfolio/tic-tac-toe.png",
       "url": "https://greg-front-end.github.io/tic-tac-toe",
-      "workTitle": "Tic-Tac-Toe Game",
+      "pageSectionName": "Tic-Tac-Toe Game",
       "overview": "The Tic-Tac-Toe Game is a classic web-based game designed to provide entertainment and challenge players' strategic thinking. Developed using JavaScript, HTML, and SCSS.",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -281,7 +281,7 @@
     "shelter": {
       "img": "./assets/portfolio/poppy.png",
       "url": "https://greg-front-end.github.io/shelter/public",
-      "workTitle": "About the Shelter",
+      "pageSectionName": "About the Shelter",
       "overview": "The About the Shelter page offers insight into our shelter's mission and current status regarding animal welfare.",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -330,7 +330,7 @@
     "photo": {
       "img": "./assets/portfolio/photographer.png",
       "url": "https://greg-front-end.github.io/photo-porftolio",
-      "workTitle": "Photographer",
+      "pageSectionName": "Photographer",
       "overview": "The Photographer Portfolio is a showcase of the photographer's talent, providing a platform for displaying captivating visuals captured through the lens. Developed using JavaScript, HTML, and CSS, it delivers a concise yet engaging presentation without the need for frameworks or backend infrastructure.",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -387,7 +387,7 @@
     "travel": {
       "img": "./assets/portfolio/travel.png",
       "url": "https://greg-front-end.github.io/Responsive-Travel-Website/",
-      "workTitle": "Travel agency",
+      "pageSectionName": "Travel agency",
       "overview": "The Travel Agency Website serves as a platform for travelers to explore destinations, plan trips, and book accommodations. Developed using JavaScript, HTML, and CSS, it offers a comprehensive yet user-friendly interface without relying on frameworks or backend infrastructure.",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -436,7 +436,7 @@
     "furniture": {
       "img": "./assets/portfolio/furniture.png",
       "url": "https://greg-front-end.github.io/web_site_Furniture_collection/app/",
-      "workTitle": "Furniture collection",
+      "pageSectionName": "Furniture collection",
       "overview": "The Furniture Collection Website showcases a curated collection of furniture pieces, providing users with a platform to explore, discover, and purchase quality furnishings. ",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -485,7 +485,7 @@
     "image": {
       "img": "./assets/portfolio/image-gallery.png",
       "url": "https://greg-front-end.github.io/API-image-gallery/",
-      "workTitle": "API image gallery",
+      "pageSectionName": "API image gallery",
       "overview": "The API Image Gallery is a platform for exploring and discovering high-quality images sourced from an external API, inspired by the popular Unsplash website. Developed using JavaScript, HTML, and CSS, it offers users a streamlined and visually appealing interface without the need for custom features like dark/light mode or a custom video player.",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -534,7 +534,7 @@
     "keyboard": {
       "img": "./assets/portfolio/virtual-keyboard.png",
       "url": "https://greg-front-end.github.io/virtual-keyboard-mac/",
-      "workTitle": "Virtual keyboard",
+      "pageSectionName": "Virtual keyboard",
       "overview": "The Virtual Keyboard Page is an interactive web application that provides users with an on-screen keyboard for text input. Developed using JavaScript (with classes for an OOP approach).",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -587,7 +587,7 @@
     "bundler": {
       "img": "./assets/portfolio/bundler.png",
       "url": "https://github.com/greg-front-end/html-css-bundler/tree/dev",
-      "workTitle": "HTML CSS bundler",
+      "pageSectionName": "HTML CSS bundler",
       "overview": "The HTML/CSS Bundler is a Node.js application designed to consolidate HTML and CSS files into a single index.html and style.css, while also cloning all asset files into the project's dist folder. Developed to enhance Node.js skills, this bundler streamlines the process of combining and organizing web project files.",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
@@ -630,7 +630,7 @@
     "fitness-machine-shop": {
       "img": "./assets/portfolio/fitness-machine.png",
       "url": "https://rainbow-kelpie-83173e.netlify.app/",
-      "workTitle": "Fitness Machines",
+      "pageSectionName": "Fitness Machines",
       "overview": "The Fitness Machine Shop Page is an e-commerce platform that offers a wide range of fitness equipment. It provides users with advanced filtering options to find the perfect fitness machines tailored to their needs. Developed using React, TypeScript, and Material UI, it ensures a modern, responsive, and user-friendly interface.",
       "technologyStackTitle": "Technology Stack",
       "technologyStack": [
