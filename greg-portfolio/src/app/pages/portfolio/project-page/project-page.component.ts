@@ -1,10 +1,11 @@
-import { Component, inject, OnInit, signal } from '@angular/core';
+import { Component, inject, OnDestroy, OnInit, signal } from '@angular/core';
 import { PortfolioCardComponent } from "../portfolio-card/portfolio-card.component";
 import { TranslateModule, TranslateService } from "@ngx-translate/core";
 import { ActivatedRoute, RouterLink } from "@angular/router";
 import { CardI } from "./models";
 import { IsTranslationLoadedService } from '../../../core/services/is-translation-loaded.service';
 import { LoaderComponent } from "../../../components/loader/loader/loader.component";
+import { Subscription } from 'rxjs';
 
 @Component({
     selector: 'app-project-page',
@@ -18,9 +19,10 @@ import { LoaderComponent } from "../../../components/loader/loader/loader.compon
         LoaderComponent
     ]
 })
-export class ProjectPageComponent implements OnInit {
+export class ProjectPageComponent implements OnInit, OnDestroy {
     private route = inject(ActivatedRoute);
     private translateService = inject(TranslateService);
+    private onLanguageChangeSubscription!: Subscription;
 
     public isContentLoadedService = inject(IsTranslationLoadedService);
     public card = signal<CardI>({ pageSectionName: "" });
@@ -29,7 +31,7 @@ export class ProjectPageComponent implements OnInit {
         seeProject: '',
     }
 
-    ngOnInit(): void {
+    public ngOnInit(): void {
         const id = this.route.snapshot.paramMap.get('id')!;
         console.log(id);
         this.card.set(this.translateService.translations[this.translateService.currentLang].portfolio[id])
@@ -37,12 +39,16 @@ export class ProjectPageComponent implements OnInit {
             ...this.translateService.translations[this.translateService.currentLang].portfolio.projectLinksLabels,
         }
 
-        this.translateService.onLangChange.subscribe((translation) => {
+        this.onLanguageChangeSubscription = this.translateService.onLangChange.subscribe((translation) => {
            this.card.set(translation.translations.portfolio[id]);
 
             this.projectLinkLabels = {
                 ...this.translateService.translations[this.translateService.currentLang].portfolio.projectLinksLabels,
             }
         });
+    }
+
+    public ngOnDestroy(): void {
+        this.onLanguageChangeSubscription.unsubscribe();
     }
 }
