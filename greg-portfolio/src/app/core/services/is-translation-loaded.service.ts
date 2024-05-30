@@ -7,12 +7,12 @@ import { filter } from "rxjs";
   providedIn: 'root'
 })
 export class IsTranslationLoadedService implements OnDestroy {
-  private routerSubscriber;
+  private routerSubscription;
 
   public isTranslationLoaded = signal<boolean>(false);
 
   constructor(private router: Router, private translateService: TranslateService) {
-    this.routerSubscriber = this.router.events.pipe(
+    this.routerSubscription = this.router.events.pipe(
         filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
       this.checkTranslation();
@@ -20,7 +20,7 @@ export class IsTranslationLoadedService implements OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.routerSubscriber.unsubscribe();
+    this.routerSubscription.unsubscribe();
   }
 
 
