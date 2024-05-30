@@ -35,7 +35,7 @@ export class AboutComponent implements OnInit {
   }
 
    public downloadCV(): void {
-    const fileUrl = `../../../assets/pages/about/cv/resume-${this.currentLang}.pdf`;
+    const fileUrl = `./assets/pages/about/cv/resume-${this.currentLang}.pdf`;
     this.http.get(fileUrl, { responseType: 'blob' }).subscribe(blob => {
       const a = document.createElement('a');
       const objectUrl = URL.createObjectURL(blob);

@@ -22,9 +22,11 @@
     color: $powder-blue;
 
     span {
+      font-size: 2rem;
       display: block;
-      padding-left: 3.125rem;
+      margin-top: 0.5rem;
       color: $payne-grey;
+      text-align: right;
     }
   }
 
@@ -67,11 +69,13 @@
   @media (max-width: $mobile) {
     &-title {
       font-size: 1.5rem;
+      text-align: center;
 
 
       span {
-        padding-left: 0;
+        font-size: 1.5rem;
         margin-top: 0.5rem;
+        text-align: center;
       }
     }
 
@@ -79,7 +83,7 @@
       font-size: 1rem;
     }
 
-        &-image-wrapper {
+    &-image-wrapper {
       width: auto;
       max-width: 10rem;
     }
