@@ -20,8 +20,7 @@ import { SvgIconComponent } from "angular-svg-icon";
 })
 export class HeaderComponent implements OnInit {
   private translateService = inject(TranslateService);
-
-  public headerLangItems = viewChild<ElementRef<HTMLElement>>('headerLangItems');
+  
   public menuToggleService = inject(MenuToggleService);
   public selectedLang = '';
   public langs = langs;
@@ -34,15 +33,9 @@ export class HeaderComponent implements OnInit {
     this.document.documentElement.lang = this.selectedLang;
   }
 
-  public onSwitchLang(): void {
-    this.menuToggleService.onMenuActive(false);
-    this.headerLangItems()?.nativeElement.classList.toggle('active');
-  }
-
   public onClickedLang(lang: string): void {
     this.selectedLang = lang;
     this.menuToggleService.onMenuActive(false);
-    this.headerLangItems()?.nativeElement.classList.remove('active');
     this.document.documentElement.lang = lang;
 
 

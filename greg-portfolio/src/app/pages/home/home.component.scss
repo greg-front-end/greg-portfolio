@@ -51,23 +51,20 @@
   @media (max-width: $desktop) {
     &-wrapper {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       justify-content: center;
       align-items: start;
       height: auto;
-      margin-top: 5rem;
+      margin-top: 1rem;
     }
 
     &-image-wrapper {
       width: auto;
+      max-width: 12rem;
     }
   }
 
   @media (max-width: $mobile) {
-    &-wrapper {
-      margin-top: 3rem;
-    }
-
     &-title {
       font-size: 1.5rem;
 
@@ -82,8 +79,9 @@
       font-size: 1rem;
     }
 
-    &-image-wrapper {
+        &-image-wrapper {
       width: auto;
+      max-width: 10rem;
     }
   }
 }

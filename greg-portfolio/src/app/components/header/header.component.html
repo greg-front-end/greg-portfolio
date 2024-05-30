@@ -9,14 +9,7 @@
     </div>
 
     <div class="header-lang-switcher-wrapper">
-        <button
-                class="header-lang-switcher button"
-                (click)="onSwitchLang()"
-        >
-            <svg-icon [src]="'../../../assets/icons/flags/' + selectedLang + '.svg'"></svg-icon>
-        </button>
-
-        <div class="header-lang-switcher-items" #headerLangItems>
+        <div class="header-lang-switcher-items">
             @for (lang of langs; track $index) {
                 <button class="header-lang-switcher header-lang-switcher-item button"
                         [class.activeLang]="selectedLang === lang"
